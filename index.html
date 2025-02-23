@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Frontend Mentor | Single-page design portfolio</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <img class="logo" src="assets/logo.svg" alt="" />
+        <button class="header__btn">Free Consultation</button>
+      </header>
+      <section class="hero">
+        <h1 class="hero__title h-l">Design solutions made easy</h1>
+        <p class="hero__description">
+          With over ten years of experience in various design disciplines, I’m
+          your one-stop shop for your design needs.
+        </p>
+      </section>
+      <section class="gallery">
+        <div class="box-1">
+          <p class="box__title">Graphic Design</p>
+        </div>
+        <div class="box-2">
+          <div class="ui-ux"><p class="box__title">UI/UX</p></div>
+          <div class="apps"><p class="box__title">Apps</p></div>
+          <div class="illustrations">
+            <p class="box__title">Illustrations</p>
+          </div>
+        </div>
+        <div class="box-3">
+          <div class="photography"><p class="box__title">Photography</p></div>
+          <div class="motion-graphics">
+            <p class="box__title">Motion Graphics</p>
+          </div>
+        </div>
+      </section>
+      <section class="personal-brand">
+        <img
+          class="personal-brand__image"
+          src="./assets/image-amy.webp"
+          alt=""
+        />
+        <div class="personal-brand__content">
+          <h1 class="personal-brand__title">
+            I’m Amy, and I’d love to work on your next project
+          </h1>
+          <p class="personal-brand__description">
+            I love working with others to create beautiful design solutions.
+            I’ve designed everything from brand illustrations to complete mobile
+            apps. I’m also handy with a camera!
+          </p>
+          <button class="personal-brand__btn">Free Consultation</button>
+        </div>
+      </section>
+      <section class="my-work">
+        <h3 class="my-work__title">My Work</h3>
+        <div class="slider-container">
+          <div class="slider">
+            <img class="slider__image" src="assets/image-slide-1.jpg" alt="" />
+            <img class="slider__image" src="assets/image-slide-2.jpg" alt="" />
+            <img class="slider__image" src="assets/image-slide-3.jpg" alt="" />
+            <img class="slider__image" src="assets/image-slide-4.jpg" alt="" />
+            <img class="slider__image" src="assets/image-slide-5.jpg" alt="" />
+          </div>
+        </div>
+        <aside class="my-work__btns__container">
+          <div class="arrow-container">
+            <img
+              class="left-arrow"
+              src="assets/icon-arrow-left.svg"
+              alt="Left"
+            />
+          </div>
+          <div class="arrow-container">
+            <img
+              class="right-arrow"
+              src="assets/icon-arrow-right.svg"
+              alt="Right"
+            />
+          </div>
+        </aside>
+      </section>
+      <div class="free-consultation">
+        <div class="free-consultation__container">
+          <h4 class="free-consultation__title">Book a call with me</h4>
+          <p class="free-consultation__description">
+            I’d love to have a chat to see how I can help you. The best first
+            step is for us to discuss your project during a free consultation.
+            Then we can move forward from there.
+          </p>
+        </div>
+        <button class="free-consultation__btn">Free Consultation</button>
+      </div>
+      <footer class="footer">
+        <img class="logo" src="assets/logo.svg" alt="" />
+        <button class="footer__btn">Free Consultation</button>
+      </footer>
+    </main>
+  </body>
+</html>
